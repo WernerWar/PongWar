@@ -55,13 +55,13 @@ public class GameManager : MonoBehaviour
 
     public void PlayerScores()
 	{
-        SetPlayerScore(playerScore++);
+        SetPlayerScore(playerScore + 1);
         StartRound();
 	}
 
     public void ComputerScores()
     {
-        SetComputerScore(computerScore++);
+        SetComputerScore(computerScore + 1);
         StartRound();
     }
 
